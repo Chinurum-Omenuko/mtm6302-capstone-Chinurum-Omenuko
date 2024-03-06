@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Pokefont';
+    src: url('../src/lib/font/Pokefont.ttf') format('truetype');
+}
+  
+:root{
+    --primary: #142d4c;
+    --secondary: #9fd3c7;
+    --tertiary: #fa5555;
+    --fourth: white;
+}
+
+body{
+    background: var(--primary);
+}
