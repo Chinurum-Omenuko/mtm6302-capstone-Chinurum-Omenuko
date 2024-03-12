@@ -7,7 +7,8 @@ const config = {
     kit: {
         adapter: adapter({
             pages: 'docs',
-            assets: 'docs'
+            assets: 'docs',
+            fallback: '200.html',
         }),
         // other kit options...
     },
