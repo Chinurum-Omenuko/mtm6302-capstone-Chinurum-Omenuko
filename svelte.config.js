@@ -8,8 +8,11 @@ const config = {
         adapter: adapter({
             pages: 'docs',
             assets: 'docs',
-            fallback: '200.html',
+            fallback: '200.html'
         }),
+        paths: {
+            base: process.env.NODE_ENV === 'production' ? '/mtm6302-capstone-Chinurum-Omenuko' : '',
+        }
         // other kit options...
     },
 };
