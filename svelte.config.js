@@ -11,7 +11,7 @@ const config = {
             fallback: '200.html'
         }),
         paths: {
-            base: process.env.NODE_ENV === 'production' ? '/mtm6302-capstone-Chinurum-Omenuko' : '',
+            base: '/mtm6302-capstone-Chinurum-Omenuko',
         }
         // other kit options...
     },
