@@ -1,3 +1,4 @@
+Start project by cloning repo, typing in console 'npm i' and then type 'npm run dev'
 # PokeDex
 This prototype is made in sveltekit(A Javascript Framework) which utilizes concepts touched in class souch as assigning variables, using for loops, arrays, and adding HTML tags within HTML.
 
