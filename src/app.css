@@ -6,6 +6,11 @@
     font-family: 'Pokefont';
     src: url('../src/lib/font/Pokefont.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'PressStart';
+    src: url('../src/lib/font/PressStart2P.ttf') format('truetype');
+}
   
 :root{
     --primary: #142d4c;

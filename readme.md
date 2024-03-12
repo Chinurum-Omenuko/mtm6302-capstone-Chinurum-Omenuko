@@ -1,38 +1,21 @@
-# create-svelte
+# PokeDex
+This prototype is made in sveltekit(A Javascript Framework) which utilizes concepts touched in class souch as assigning variables, using for loops, arrays, and adding HTML tags within HTML.
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+# Relevant Files
+All work is located in the 'src'(source folder).
+In here, you will find:
 
-## Creating a project
+## Lib
+This is the library folder that has all the componets(grouped html, css and javascript) that make up the website. The two main components used on this project are:
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Navbar
+- Card
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+this folder also holds the font files and images
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Routes
 
-## Developing
+This folder holds the route to the main page of the project
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Apps.css and app.html are the main html and css that all components are placed upon during javascript execution.
 
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
